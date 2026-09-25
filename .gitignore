@@ -6,4 +6,4 @@ data/
 checkpoints/
 runs/
 
-# model.py 与 model.pt 是课程要求的提交文件，故不忽略。
+# model.py 与 model.pt 是本项目的发布文件，故不忽略。
