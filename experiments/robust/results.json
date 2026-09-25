@@ -1,0 +1,30 @@
+{
+  "variant": "robust",
+  "seed": 2026,
+  "epochs_requested": 100,
+  "epochs_ran": 100,
+  "early_stopping": {
+    "min_epochs": 80,
+    "patience": 20,
+    "min_delta": 0.02
+  },
+  "parameters": 11173962,
+  "best_epoch": 97,
+  "best_validation": {
+    "loss": 0.22215959167480467,
+    "accuracy": 95.88
+  },
+  "validation_noise": {
+    "loss": 0.9516830932617187,
+    "accuracy": 70.28
+  },
+  "validation_occlusion": {
+    "loss": 0.39306745986938474,
+    "accuracy": 89.48
+  },
+  "public_test": {
+    "loss": 0.22410852274894713,
+    "accuracy": 95.66
+  },
+  "elapsed_minutes": 14.27693034807841
+}

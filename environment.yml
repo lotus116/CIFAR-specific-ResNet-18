@@ -1,0 +1,13 @@
+name: cnn
+channels:
+  - defaults
+dependencies:
+  - python=3.13
+  - pip
+  - pip:
+      # RTX 50 系列需要支持 sm_120 的 CUDA 12.8 构建。
+      - --extra-index-url=https://download.pytorch.org/whl/cu128
+      - torch==2.7.1+cu128
+      - torchvision==0.22.1+cu128
+      - matplotlib==3.11.2
+      - jupyterlab==4.6.4

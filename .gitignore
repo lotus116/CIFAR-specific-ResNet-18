@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+data/
+checkpoints/
+runs/
+
+# model.py 与 model.pt 是课程要求的提交文件，故不忽略。

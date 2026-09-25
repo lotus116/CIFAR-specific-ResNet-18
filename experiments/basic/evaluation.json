@@ -1,0 +1,18 @@
+{
+  "best_validation": {
+    "loss": 0.23165903491973877,
+    "accuracy": 94.12
+  },
+  "validation_noise": {
+    "loss": 2.942594549560547,
+    "accuracy": 44.64
+  },
+  "validation_occlusion": {
+    "loss": 0.7524253479003906,
+    "accuracy": 79.9
+  },
+  "public_test": {
+    "loss": 0.2477408833026886,
+    "accuracy": 93.36
+  }
+}
